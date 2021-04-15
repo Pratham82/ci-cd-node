@@ -1,0 +1,20 @@
+{
+  "name": "docker-demo",
+  "version": "1.0.0",
+  "description": "Basic node app with docker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "docker",
+    "nodejs"
+  ],
+  "author": "Prathamesh Mali",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
