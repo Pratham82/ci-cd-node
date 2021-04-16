@@ -19,6 +19,13 @@ app.get('/hello', (_, res) =>
   })
 )
 
+app.get('/hello2', (_, res) =>
+  res.json({
+    status: 'Success',
+    message: 'Hello Route',
+  })
+)
+
 app.listen(PORT, () =>
   console.log(`Server started on http://localhost:${PORT}`)
 )
