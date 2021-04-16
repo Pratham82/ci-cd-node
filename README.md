@@ -1,4 +1,4 @@
-# node-docker-demo
+# ci-cd-node
 
 ## How to use
 
